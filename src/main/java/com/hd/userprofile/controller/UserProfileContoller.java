@@ -22,7 +22,7 @@ import com.hd.userprofile.service.UserProfileService;
 
 //@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
-@RequestMapping("/api/userprofile/v1")
+@RequestMapping("${app.root.path}")
 public class UserProfileContoller {
 
 	@Autowired
