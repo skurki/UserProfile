@@ -31,8 +31,7 @@ public class UserProfileContoller {
 	public static final Logger logger = LoggerFactory.getLogger(UserProfileContoller.class);
 	
 	
-	@RequestMapping(value="/user", method=RequestMethod.GET, 
-			consumes=MediaType.APPLICATION_JSON_UTF8_VALUE, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
+	@RequestMapping(value="/user", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<?> getAllUserProfiles(){
 		logger.info("Get all profiles");
 		List<User> profileList = userProfileService.findAllUserProfiles();
@@ -43,8 +42,7 @@ public class UserProfileContoller {
 	}
 	
 
-	@RequestMapping(value="/user/{id}", method=RequestMethod.GET,
-			consumes=MediaType.APPLICATION_JSON_UTF8_VALUE, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
+	@RequestMapping(value="/user/{id}", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<?> getUserProfile(@PathVariable("id") long userId){
 		logger.info("Get profile by id");
 		User user = userProfileService.findUserProfile(userId);
