@@ -18,16 +18,17 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user"
 					]
 				},
@@ -47,16 +48,17 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user/100",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user/100",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user",
 						"100"
 					]
@@ -77,19 +79,20 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"firstName\": \"John\",\n\t\"lastName\":\"Smith\"\n}"
+					"raw": "{\n\t\"firstName\": \"Jason\",\n\t\"lastName\":\"Johnson\",\n\t\"emailId\": \"jason@emailme.com\",\n\t\"county\": \"cobb\",\n\t\"state\": \"GA\",\n\t\"country\": \"USA\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user"
 					]
 				},
@@ -112,16 +115,17 @@
 					"raw": "{\n\t\"firstName\": \"Bill\",\n\t\"lastName\":\"Smith\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user/102",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user/102",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user",
 						"102"
 					]
@@ -145,16 +149,17 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user/102",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user/102",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user",
 						"102"
 					]
@@ -178,16 +183,17 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/userprofile/v1/user",
-					"protocol": "http",
+					"raw": "https://userprofile-skurki.cfapps.io/api/userprofile/v1/user",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"userprofile-skurki",
+						"cfapps",
+						"io"
 					],
-					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"userprofile",
+						"v1",
 						"user"
 					]
 				},
