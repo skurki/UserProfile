@@ -59,8 +59,8 @@ public class UserProfileControllerUnitTest {
 //		uiUser.setFirstName("John");
 //		uiUser.setLastName("Smith");
 		
-		//mockMvc.perform(post("/api/v1/userprofile/user", uiUser))
-		mockMvc.perform(post("/api/v1/userprofile/user")
+		//mockMvc.perform(post("/api/userprofile/v1/user", uiUser))
+		mockMvc.perform(post("/api/userprofile/v1/user")
 				.content(USER_REQUEST)
 				.contentType(APPLICATION_JSON_UTF8))
 				.andExpect(status().is(200));
@@ -78,7 +78,7 @@ public class UserProfileControllerUnitTest {
 		
 		
 		//mockMvc.perform(post("/api/v1/userprofile/user", uiUser))
-		mockMvc.perform(post("/api/v1/userprofile/users")
+		mockMvc.perform(post("/api/userprofile/v1/users")
 				.content(USER_REQUEST)
 				.contentType(APPLICATION_JSON_UTF8))
 				//.andExpect(status().is(200));
